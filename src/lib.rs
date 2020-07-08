@@ -1,3 +1,5 @@
+extern crate openssl;
+
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
 pub use sqlx_core::arguments::{Arguments, IntoArguments};
